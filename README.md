@@ -1,8 +1,11 @@
-<H3>Name</H3>
-<H3>Register no.</H3>
-<H3>Date</H3>
+<H3>Name: THEJASHREE S</H3>
+<H3>Register no.: 212224240175</H3>
+<H3>Date: 06-08-2026</H3>
 <H3>Experiment No. 2 </H3>
+
+
 ## Implementation of Perceptron for Binary Classification
+
 # AIM:
 To implement a perceptron for classification using Python<BR>
 
@@ -49,11 +52,35 @@ STEP 9:For ‘N ‘ iterations ,do the following:<BR>
 STEP 10:Plot the error for each iteration <BR>
 STEP 11:Print the accuracy<BR>
 # PROGRAM:
-    ''' Insert your code here '''
+```py
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from mpl_toolkits import mplot3d
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+class Perceptron:
+    def __init__(self, learning_rate=0.1):
+        self.learning_rate = learning_rate
+…         marker='o')
+
+plt.xlabel("Epoch")
+plt.ylabel("Errors")
+
+plt.show()
+
+```
+
+
 
 # OUTPUT:
+<img width="1181" height="782" alt="Screenshot 2026-08-06 220333" src="https://github.com/user-attachments/assets/6675ed38-eb0c-4310-9d57-fde70e7b12ea" />
 
-    ''' Show your result '''
+<img width="1092" height="593" alt="Screenshot 2026-08-06 220409" src="https://github.com/user-attachments/assets/abf33338-7d05-4317-b2b4-3b9226c08d17" />
+
+<img width="1085" height="452" alt="Screenshot 2026-08-06 220418" src="https://github.com/user-attachments/assets/af74f508-87a8-498d-bb63-1029e41c488d" />
+
 
 # RESULT:
  Thus, a single layer perceptron model is implemented using python to classify Iris data set.
