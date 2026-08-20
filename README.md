@@ -1,5 +1,5 @@
-<H3>Name: THEJASHREE S</H3>
-<H3>Register no.: 212224240175</H3>
+<H3>Name: PREM KUMAR S </H3>
+<H3>Register no.: 212223240125</H3>
 <H3>Date: 06-08-2026</H3>
 <H3>Experiment No. 2 </H3>
 
